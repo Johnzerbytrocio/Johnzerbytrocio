@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Trocio</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("Ano name mo?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", Matagal na kitang gusto"); 
+    alert ("Matagal narin akong nag hintay");
+    alert("Sabihan mo lang ako, if nag hiwalay na kayo");
+    alert("pero🥲");
+    alert("Kung hindi mo ako gusto");
+    alert("Okay lng🙂");
+    alert("Basta, mag ingat ka palagi🤎");
+    alert("Sana masaya ka saiyong pinili🤗");
+    alert("yun lang po lahat sana 😁");
+    alert("sana😊");
+    alert("sana sana sana😊");
+    alert("sana ako nalang🤭");
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> Hi, Crush:)</h1>
+<img src="image.jpg" height="200" >
+<h1 style="#">ano masasabi mo</h1>
+
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" yes " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:310px; height:310px;">
+<input type="button" value="eww" onMouseOver="f()" />
+</div>
+
+</body>
+</html>
